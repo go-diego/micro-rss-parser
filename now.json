@@ -1,0 +1,8 @@
+{
+    "version": 2,
+    "alias": ["rss-parser-api"],
+    "name": "micro-rss-parser",
+    "builds": [
+        { "src": "*.js", "use": "@now/node" }
+    ]
+}
