@@ -80,6 +80,7 @@ module.exports = async (req, res) => {
         // Cache results for 24 hours
         // cache.put(url, data, TWENTY_FOUR_HOURS)
     } catch (err) {
+        // TODO: if time out, get from cache
         statusCode = 500;
         data = {
             error: err.message
